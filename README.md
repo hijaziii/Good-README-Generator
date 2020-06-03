@@ -1,38 +1,37 @@
 
 
-
 # Title
 ![License](https://img.shields.io/badge/License-ISC-blue.svg)
 
-ReadMe Generator
+Good-README-Generator
 
 
 # Description
 
-Fantastic ready to rock and roll
+ I have generated a comman-line application that accepts user input. When users promoted for information about thier application repository a quality, professional README.md is generated.
 
 # Table of Contents
 
 
-* [Installation](#installations)
+* [Installation](#installation)
 
 * [Usage](#usage)
 
 * [License](#license)
 
-* [Contributors](#contributing)
+* [Contributing](#contributing)
 
 * [Tests](#tests)
 
-* [Question](#questions)
+* [Questions](#questions)
 
-# Installations
+# Installation
 
 npm install
 
 # Usage
 
- node index.js
+nodejs
 
 # License
 
@@ -40,7 +39,7 @@ ISC
 
 # Contributing
 
-
+hijaziii
 
 # Tests
 
@@ -52,14 +51,12 @@ hijaziii
 
 [GitHub URL](https://github.com/hijaziii)
 
-Email me at ( hijaziii@hotmail.com) if you have any addtional questions!
+Email me at hijaziii@readme.com if you have any addtional questions!
 
 # Author
 
 [Profile Image](https://avatars1.githubusercontent.com/u/62193882?v=4) 
 
-Location:
-
-(Los Angeles)
+Location: Los Angeles
 
 

@@ -1,48 +1,46 @@
-function generateMarkdown(data) {
+function generateMarkdown(data, badge) {
   return `
 
-
 # Title
-${data.badge}
-\n${data.response.title}
+${badge}
+\n${data.title}
 
 
 # Description
-\n${data.response.description}
+\n${data.description}
 
 # Table of Contents
 
-\n* [Installation](#installations)
+\n* [Installation](#installation)
 \n* [Usage](#usage)
 \n* [License](#license)
-\n* [Contributors](#contributing)
+\n* [Contributing](#contributing)
 \n* [Tests](#tests)
-\n* [Question](#questions)
+\n* [Questions](#questions)
 
-# Installations
-\n${data.response.installations}
+# Installation
+\n${data.installation}
 
 # Usage
-\n${data.response.usage}
+\n${data.usage}
 
 # License
-\n${data.response.license}
+\n${data.license}
 
 # Contributing
-\n${data.response.contributing}
+\n${data.contributing}
 
 # Tests
-\n${data.response.tests}
+\n${data.tests}
 
 # Questions
-\n${data.response.username}
-\n[GitHub URL](${data.response.html_url})
-\nEmail me at (${data.response.email}) if you have any addtional questions!
+\n${data.username}
+\n[GitHub URL](${data.html_url})
+\nEmail me at ${data.email} if you have any addtional questions!
 
 # Author
-\n[Profile Image](${data.response.avatar_url}) 
-\nLocation:
-\n(${data.response.location})
+\n[Profile Image](${data.avatar_url}) 
+\nLocation: ${data.location}
 
 
 `;

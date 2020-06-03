@@ -42,8 +42,8 @@ function init() {
     },
     {
       type: "input",
-      message: "What's your method of installment? How do you run it?",
-      name: "installations"
+      message: "What's your method of installment?",
+      name: "installation"
     },
     {
       type: "input",
@@ -58,7 +58,7 @@ function init() {
     },
     {
       type: "input",
-      message: "Enter how many users are contributing by inputing Github username of the contributors:",
+      message: "Enter how many users are contributing by inputing individually each Github username :",
       name: "contributing"
     },
     {
@@ -70,6 +70,7 @@ function init() {
   ];
 
 
+
   inquirer
     .prompt(questions)
     .then(function (response) {
@@ -79,7 +80,7 @@ function init() {
         response['avatar_url'] = res.data['avatar_url'];
         response['html_url'] = res.data['html_url'];
         response['location'] = res.data['location']
-        let output = generateMarkdown({ response, badge });
+        let output = generateMarkdown(response, badge);
         writeToFile("README", output);
 
       });
